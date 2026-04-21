@@ -27,9 +27,6 @@
 </head>
 
 <body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
 
     <!-- header-start -->
     <header>
@@ -49,20 +46,15 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a class="active" href="index.html">home</a></li>
-                                        <li><a href="Schedule.html">Schedule</a></li>
-                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
+
+                                        <!-- Blog -->
+                                        <!-- <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">blog</a></li>
                                                 <li><a href="single-blog.html">single-blog</a></li>
                                             </ul>
-                                        </li>
-                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="elements.html">elements</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="Speakers.html">Speakers</a></li>
-                                        <li><a href="Venue.html">Venue</a></li>
+                                        </li> -->
+                                        <li><a href="blog.html">blog</a></li>
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </nav>
@@ -92,10 +84,12 @@
                     <div class="row">
                         <div class="col-xl-9">
                             <div class="title_text">
-                                <h3>Digital Design <br>
-                                    Conference <br>
-                                    2019 NYC</h3>
-                                <a href="#" class="boxed-btn-white">Add to your Calendar</a>
+                                <h3>MEN IN<br>
+                                    SUIT <br>
+                                    2026 ABUJA</h3>
+                                <a href="https://www.google.com/calendar/render?action=TEMPLATE&text=Men+in+Suit+Abuja&dates=20260523T120000/20260523T180000&details=An+exclusive+gathering+of+highly+intentional+men&location=Abuja,+Nigeria" target="_blank" class="boxed-btn-white">
+                                    Add to your Calendar
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -109,18 +103,47 @@
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="single_date">
                             <i class="ti-location-pin"></i>
-                            <span>City Hall, New York City</span>
+                            <span>Abuja, Nigeria.</span>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="single_date">
                             <i class="ti-alarm-clock"></i>
-                            <span>12-15 Sep 2019</span>
+                            <span>23<sup class="white-text">rd</sup> -May-2026</span>
                         </div>
                     </div>
 
                     <div class="col-xl-5 col-md-12 col-lg-5">
-                        <span id="clock"></span>
+                        <span id="clock">
+                            <!-- <div class="countdown_time">
+                                <div class="single_countdown">
+                                    <h3>%D</h3><span>days</span>
+                                </div>
+                                <div class="single_countdown">
+                                    <h3>%H</h3><span>Hours</span>
+                                </div>
+                                <div class="single_countdown">
+                                    <h3>%M</h3><span>Minutes</span>
+                                </div>
+                                <div class="single_countdown">
+                                    <h3>%S</h3><span>Seconds</span>
+                                </div>
+                            </div> -->
+                            <div class="countdown_time">
+                                <div class="single_countdown">
+                                    <h3 id="days">0</h3><span>Days</span>
+                                </div>
+                                <div class="single_countdown">
+                                    <h3 id="hours">0</h3><span>Hours</span>
+                                </div>
+                                <div class="single_countdown">
+                                    <h3 id="minutes">0</h3><span>Minutes</span>
+                                </div>
+                                <div class="single_countdown">
+                                    <h3 id="seconds">0</h3><span>Seconds</span>
+                                </div>
+                            </div>
+                        </span>
                     </div>
 
                 </div>
@@ -513,66 +536,67 @@
         <div class="circle_ball d-none d-lg-block">
             <img src="img/banner/footer_ball.png" alt="">
         </div>
-            <div class="footer_top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-4 col-md-4 col-lg-4">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                        Follow Us
-                                </h3>
-                                <ul>
-                                    <li><a target="_blank" href="#">Facebook</a></li>
-                                    <li><a target="_blank" href="#">Twitter</a></li>
-                                    <li><a target="_blank" href="#">Instagram</a></li>
-                                    <li><a target="_blank" href="#">Youtube</a></li>
-                                </ul>
-    
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-4 col-lg-4">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                        Links
-                                </h3>
-                                <ul>
-                                    <li><a target="_blank" href="schedule.html">Schedule</a></li>
-                                    <li><a target="_blank" href="speakers.html">Speakers</a></li>
-                                    <li><a target="_blank" href="contact.html">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-4 col-lg-4">
-                            <div class="footer_widget">
-                                <h3 class="footer_title">
-                                        Venue
-                                </h3>
-                                <p>
-                                    200, D-block, Green lane USA <br>
-                                    edumark@contact.com <br>
-                                    +10 367 467 8934
-                                    
-                                </p>
-                            </div>
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Follow Us
+                            </h3>
+                            <ul>
+                                <li><a target="_blank" href="#">Facebook</a></li>
+                                <li><a target="_blank" href="#">Twitter</a></li>
+                                <li><a target="_blank" href="#">Instagram</a></li>
+                                <li><a target="_blank" href="#">Youtube</a></li>
+                            </ul>
+
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="copy-right_text">
-                <div class="container">
-                    <div class="footer_border"></div>
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <p class="copy_right text-center">
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <div class="col-xl-4 col-md-4 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Links
+                            </h3>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Venue
+                            </h3>
+                            <p>
+                                Abuja, Nigeria. <br>
+                                edumark@contact.com <br>
+                                +10 367 467 8934
+
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            2026 All rights reserved | Developer <b><a
+                                href="https://armstrong-aisosa.github.io/personal-react-portfolio/" target="_blank">Armstrong</a></b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- footer_end -->
 
 
@@ -608,6 +632,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+
+    <!-- Clock Logic -->
+    <script src="js/clock-countdown-logic.js"></script>
 
 </body>
 
