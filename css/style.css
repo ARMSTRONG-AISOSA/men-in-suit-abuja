@@ -57,7 +57,7 @@
 
 /* link */
  .blue-on-hover:hover {
-  color: #0181F5;
+  color: #0181F5 !important;
 }
 
 /* Normal desktop :1200px. */
