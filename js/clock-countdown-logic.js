@@ -1,6 +1,6 @@
 
 // 🔥 Set your event date here
-const eventDate = new Date("2026-05-23T00:00:00").getTime();
+const eventDate = new Date("2026-07-04T00:00:00").getTime();
 
 // ✅ helper function for leading zeros
 function formatTime(time) {
